@@ -1,0 +1,8 @@
+CREATE TABLE tbl_book(
+	book_no INTEGER PRIMARY KEY AUTOINCREMENT,
+	title	TEXT NOT NULL,
+	publisher TEXT NOT NULL,
+	page  INTEGER
+)
+
+SELECT * FROM tbl_book;
